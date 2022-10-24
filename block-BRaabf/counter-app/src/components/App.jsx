@@ -25,9 +25,9 @@ class App extends React.Component {
   render(){
     return (
     <>  
-      <div className="container">
+      <div className="container flex-center">
       <div className="center">{this.state.counter}</div>
-        <div className="flex flex-center mr-t">
+        <div className="flex">
         <button className="btn" onClick={this.incriment}>incriment</button>
         <button className="btn" onClick={this.decriment}>decriment</button>
         <button className="btn" onClick={this.reset}>reset</button>
