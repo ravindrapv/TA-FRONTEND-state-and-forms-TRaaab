@@ -266,10 +266,10 @@ input{
 
 
 .textarea{
-    width: 50%;
+    width: 30%;
     height: 150px;
     padding: 12px 20px;
-    margin: 8px 0;
+    margin: 8px;
     box-sizing: border-box;
     border: 2px solid rgb(173, 77, 218);
     border-radius: 4px;
@@ -308,3 +308,74 @@ input{
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,700&family=Shrikhand&display=swap');
 
 
+.dancing{
+    font-family: 'Dancing Script', cursive;
+    font-style: italic;
+    font-variant: small-caps;
+  }
+  .fuzzy{
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-size: 2rem;
+  }
+  .lato{
+    font-family: 'Lato', sans-serif;
+    font-size: 3rem;
+  }
+  .lobster{
+    font-family: 'Lobster', cursive;
+    font-size: 3rem;
+    font-weight: 600;
+  }
+  .montserrat{
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+  }
+  .nunito{
+    font-family: 'Nunito', sans-serif;
+    font-style: oblique;
+  }
+  .open{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+  }
+  .oswald{
+    font-family: 'Oswald', sans-serif;
+    font-size: 4rem;
+    font-weight: 900;
+  }
+  .raleway{
+    font-family: 'Raleway', sans-serif;
+  }
+  .roboto{
+    font-family: 'Roboto', sans-serif;
+  }
+
+    .shrikhand{
+        font-family: 'Shrikhand', cursive;
+        font-weight: 900;
+    }   
+    .ubuntu{
+        font-family: 'Ubuntu', sans-serif;
+    }
+    .varela{
+        font-family: 'Varela Round', sans-serif;
+    }
+    .vollkorn{
+        font-family: 'Vollkorn', serif;
+    }
+    .work{
+        font-family: 'Work Sans', sans-serif;
+    }
+    .yeseva{
+        font-family: 'Yeseva One', cursive;
+    }
+    .zeyada{
+        font-family: 'Zeyada', cursive;
+    }
+
+    .text{
+        font-size: 20px;
+        font-weight: 700;
+        color: #333;
+    }
+
+    /* diff types of font familyes  */
