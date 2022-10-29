@@ -18,6 +18,23 @@ export default class Fonts extends Component {
     }
 
   render() {
+
+    var fonts = [
+      'dancing',
+      'fuzzy',
+      'lato',
+      'shrikhand',
+      'shrikhand',
+      'roboto',
+      'raleway',
+      'oswald',
+      'raleway',
+      'ubuntu',
+      'varela',
+      'vollkorn',
+      'zeyada',
+    ]
+
     return (
       <div className="container">
         <div className='center'>Fonts</div>
@@ -26,11 +43,17 @@ export default class Fonts extends Component {
         <button onClick={this.handelClick} className='btn'>Submit</button>
         </div>
         <div className="flex">
-        <p className='textarea'>{this.state.messageText}</p>
-        <p className='textarea'>{this.state.messageText}</p>
-        <p className='textarea'>{this.state.messageText}</p>
-        <p className='textarea'>{this.state.messageText}</p>
-        
+          {
+            fonts.map(font => (
+              <>
+              <div className="textarea">
+              <p className={font}>
+                {this.state.messageText}
+              </p>
+              </div>
+              </>
+            ))
+          }
         </div>
       </div>
     )
