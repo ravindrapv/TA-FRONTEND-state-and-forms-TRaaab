@@ -7,14 +7,9 @@ export default class Register extends Component {
             register:"",
         }
     }
+
     render() {
         this.handelSubmit = (event) => {
-            this.setState({
-                register:event.target.value
-            })
-        }
-
-        this.handelChange =(event) => {
             this.setState({
                 register:event.target.value
             })
