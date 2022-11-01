@@ -121,6 +121,10 @@ input{
     resize: vertical;
 }
 
+label{
+    margin-bottom: 2rem;
+}
+
 .btn{
     background-color: #4CAF50;
     color: #fff;
@@ -133,4 +137,12 @@ input{
 textarea{
     height: 150px;
     margin: 1rem;
+}
+
+.error{
+    color: red;
+}
+
+span{
+    color: red;
 }
