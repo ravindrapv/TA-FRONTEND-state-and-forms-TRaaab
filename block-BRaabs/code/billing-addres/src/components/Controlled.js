@@ -30,6 +30,7 @@ export default class Controlled extends Component {
     const billingData = isSame ? shipping : billing;
     return (
       <>
+      <p className=' text-red-500'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga consequatur dolore culpa, consectetur voluptas quam alias officiis sint nihil ipsum incidunt quos itaque commodi molestiae tenetur magni accusamus pariatur mollitia!</p>
         <div className="columns is-mobile is-3 flex">
           <div className="column main-heading" style={{ marginTop: "3rem" }}>
             <h1 className="is-size-3 has-text-primary">Shipping Address</h1>
